@@ -18,16 +18,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
-        final TextView inputUserName = findViewById(R.id.inputUserName);
-        final TextView inputEmail = findViewById(R.id.inputEmail);
-        final TextView generatedText = findViewById(R.id.generatedTxt);
-        Button btnOk = findViewById(R.id.btnOk);
-        Button btnClear = findViewById(R.id.btnClear);
+        final TextView inputUserName = findViewById(R.id.input_user_name);
+        final TextView inputEmail = findViewById(R.id.input_email);
+        final TextView generatedText = findViewById(R.id.generated_txt);
+        Button btnOk = findViewById(R.id.btn_ok);
+        Button btnClear = findViewById(R.id.btn_clear);
 
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (inputUserName.getText().toString().equals("") || inputEmail.getText().toString().equals("")) {
+                if (inputUserName.getText().toString().equals("") ||
+                        inputEmail.getText().toString().equals("")) {
                     generatedText.setText("Пожалуйста, заполните все поля!");
                     return;
                 }

@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Подписка</string>
-    <string name="title">Подписка</string>
     <string name="user_name">Имя пользователя</string>
-    <string name="txtEmail">Электронная почта</string>
+    <string name="txt_email">Электронная почта</string>
     <string name="txt_btn_ok">ОК</string>
     <string name="txt_btn_clear">Очистить</string>
     <string name="user_name_input_example">Елена</string>
